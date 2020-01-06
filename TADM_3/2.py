@@ -32,9 +32,9 @@ def linked_to_arr(linked_list):
     current_node = current_node.get_next()
   return arr
 
-# Write a program to reverse the direction of a given singly-linked list.
-# In other words, after the reversal all pointers should now point backwards.
-# your algorithm should take linear time
+# Write a program to reverse the direction of a given singly-linked list. 
+# In other words, after the reversal all pointers should now point backwards. 
+# Your algorithm should take linear time.
 
 def reverse_linked_list(linked_list: Node):
   stack: List[Node] = []
